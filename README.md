@@ -19,8 +19,8 @@ Code was written using VS Code and tested on Apache webserver running on a Raspb
 
 ### Links
 
-https://geckogrpautomation.github.io/calendar/
+https://github.com/geckogrpautomation/weather.github.io
 
-### Page faceplate:
+https://geckogrpautomation.github.io/weather.github.io/
 
-![Work Day Scheduler](https://github.com/geckogrpautomation/calendar.github.io/blob/main/images/calFaceplate.png)
+
