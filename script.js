@@ -1,7 +1,7 @@
 
 
 //Set query URL to open weather api with geckogrp API key. {0c0d2cb0d3b99d690441c15292b8efd9}
-let weatherURL = "http://api.openweathermap.org/data/2.5/forecast?";
+let weatherURL = "https://api.openweathermap.org/data/2.5/forecast?";
 let weatherApiKey = "9ea4b0a185c06c70d30677b3508b5611";
 
 
