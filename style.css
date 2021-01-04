@@ -1,0 +1,153 @@
+html{
+    position:relative; 
+    min-height: 100%;
+}
+
+  html,body{
+    margin:0;
+    padding:0;
+}
+
+.header{    
+    background-color: #36454f ;
+    color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;  
+    text-align: center;   
+}
+
+.flex-12{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    padding: 0%;
+    background-color: white;
+
+}
+
+.flex-8{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-width: 66.66%;
+    min-height: calc(100vh - 66px);
+    background-color: white;
+    flex-wrap: wrap; 
+       
+}
+
+.flex-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    min-width: 33.33%;
+    min-height: calc(100vh - 66px);
+    height: 100%;
+    flex-grow: 1;
+    background-color:#efefef;
+    flex-wrap: wrap;
+}
+
+.flex-4Row{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-8Row{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flexItem{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 1%;
+}
+
+.weatherBox{
+
+    background-color: white;
+    border: Black;
+    outline-width: 5px;
+    margin: 1%;
+}
+
+.dayBox{
+
+display: flex;
+flex-direction: column;
+width: 200px;
+height: 150px;
+background-color: #007BFF;
+color: white;
+margin: 1%;
+padding: 1%;
+border-radius: 10px;
+
+}
+
+.places{
+    min-width: 100%;    
+}
+
+.places ul{
+    min-width: 100%;   
+}
+
+#list-group{
+    padding: 0px;
+    margin-left: 0%;
+}
+
+.places ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.list-group-item-light{
+    margin-left: 1%;
+    min-width: 80%;
+}
+
+.list-group-item-dark{
+    margin-left: 1%;
+    min-width: 80%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .flex-12{      
+        flex-direction: column;    
+    }            
+
+    .flex-8{
+        min-width: 100%;      
+           
+    }
+    
+    .flex-4{        
+        min-width: 100%        
+    }
+
+}

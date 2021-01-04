@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Global Weather</title>
+  </head>
+
+  <body>
+
+    <header class="header">
+        <h1>Weather Data</h1>
+    </header>
+            
+    <!-- Start main flex container -->
+    <main class="flex-12">      
+        
+          <!-- Start list item flex container / columns 1/4 screen-->  
+          <aside class="flex-4">
+            <div class ="flexItem">
+              <div class="input-group mb-3">
+                  <button class="btn btn-outline-secondary" type="button" id="deleteChck">Clear All</button>
+                  <input type="text" class="form-control" placeholder="Enter City" aria-label="City or place" aria-describedby="button-addon2" id="cityInput">
+                  <input type="search" class="form-control" placeholder="Enter Country" aria-label="City or place" aria-describedby="button-addon2" id="countryInput">
+                  <button class="btn btn-outline-secondary" type="button" id="searchCity">Search</button>               
+              </div>
+            </div> 
+           
+            <div class ="flexItem">
+              <!-- Start list object --> 
+              <article class="places">  
+                <ul id="list-group">                                                                    
+                </ul>
+              </article>  
+              <!-- End list object --> 
+            </div>             
+          </aside>
+          <!-- End list item flex container / columns 1/4 screen-->    
+      
+          <!-- Start Weather dashboard flex container / columns 3/4 screen--> 
+          <section class = "flex-8">  
+              
+            <section class="weatherBox">
+              <div class ="flexItem">
+                  <h1 id="curCity">Testing</h1>
+                  <h1 id="curDate">Date</h1>
+              </div>             
+              <div class ="flexItem">
+                <h2 id="curTemp">Current Temperature </h2>                  
+              </div>        
+              <div class ="flexItem">
+                <h2 id="curHumid">Current Humidity </h2>  
+              </div>              
+              <div class ="flexItem">
+                <h2 id="curWinSpd">Current Wind Speed</h2>  
+              </div>    
+              <div class ="flexItem">
+                <h2 id="curUVIndex">Current Temperature</h2> 
+              </div>
+            
+            </section>
+
+            <div class ="flexItem">
+              <h1 id="5DayForHead">5 Day Forecasting</h1>
+            </div>
+
+            <section class="flex-8Row">                                     
+                              
+                <div class = "dayBox">
+                  <div id = "dayBox1Date">a</div>a
+                  <div id = "dayBox1Pic">a</div>
+                  <div id = "dayBoxTemp">a</div>
+                  <div id = "dayBox1Humid">a</div>                             
+                </div>           
+              
+                <div class = "dayBox">
+                  <div id = "dayBox2Date">a</div>a
+                  <div id = "dayBox2Pic">a</div>
+                  <div id = "dayBox2Temp">a</div>
+                  <div id = "dayBox2Humid">a</div>                             
+                </div>           
+
+                <div class = "dayBox">
+                  <div id = "dayBox3Date">a</div>a
+                  <div id = "dayBox3Pic">a</div>
+                  <div id = "dayBox3Temp">a</div>
+                  <div id = "dayBox3Humid">a</div>                             
+                </div>           
+
+                <div class = "dayBox">
+                  <div id = "dayBox4Date">a</div>a
+                  <div id = "dayBox4Pic">a</div>
+                  <div id = "dayBox4Temp">a</div>
+                  <div id = "dayBox4Humid">a</div>                             
+                </div>           
+
+                <div class = "dayBox">
+                  <div id = "dayBox5Date">a</div>a
+                  <div id = "dayBox5Pic">a</div>
+                  <div id = "dayBox5Temp">a</div>
+                  <div id = "dayBox5Humid">a</div>                             
+                </div>           
+              
+            </section>
+
+          </section> 
+          <!-- End Weather dashboard flex container / columns 3/4 screen-->    
+                 
+   
+      <!-- Start footer -->
+      <footer>
+    
+      </footer>
+      <!-- End footer -->            
+    </main>
+       
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./script.js"></script>
+<script src="./ISO3611.js"></script>
+
